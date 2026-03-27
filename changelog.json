@@ -1,0 +1,57 @@
+﻿{
+  "currentVersion": "1.2.0",
+  "entries": [
+    {
+      "version": "1.2.0",
+      "date": "2026-03-27",
+      "title": "帮助中心与远程内容",
+      "changes": [
+        { "type": "feature", "description": "新增帮助中心独立窗口，提供常见问题与使用指引" },
+        { "type": "feature", "description": "支持从 GitHub 远程获取更新日志/帮助中心/书源规则" },
+        { "type": "improvement", "description": "更新日志窗口支持与主窗口置顶联动" },
+        { "type": "improvement", "description": "帮助中心内容支持本地缓存与离线回退" }
+      ]
+    },
+    {
+      "version": "1.1.8",
+      "date": "2026-03-20",
+      "title": "阅读体验优化",
+      "changes": [
+        { "type": "improvement", "description": "章节加载与合并策略优化，减少空白与重复段落" },
+        { "type": "improvement", "description": "提升搜索并发稳定性，减少超时失败" },
+        { "type": "fix", "description": "修复部分书源章节分页识别异常" }
+      ]
+    },
+    {
+      "version": "1.1.6",
+      "date": "2026-03-05",
+      "title": "书源与缓存",
+      "changes": [
+        { "type": "feature", "description": "增加书源规则分组与同步机制" },
+        { "type": "improvement", "description": "缓存清理与状态统计展示更直观" },
+        { "type": "fix", "description": "修复书源编辑时偶发数据丢失" }
+      ]
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-02-18",
+      "title": "界面与易用性",
+      "changes": [
+        { "type": "improvement", "description": "关于页与设置页排版统一，信息更清晰" },
+        { "type": "improvement", "description": "通知样式在深色模式下更易读" },
+        { "type": "fix", "description": "修复部分窗口标题未及时刷新" }
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-01-25",
+      "title": "稳定版本",
+      "changes": [
+        { "type": "feature", "description": "新增更新日志窗口，支持查看所有版本记录" },
+        { "type": "feature", "description": "支持深色/浅色主题自动切换" },
+        { "type": "improvement", "description": "优化搜索性能与章节解析" },
+        { "type": "fix", "description": "修复阅读器进度保存异常" }
+      ]
+    }
+  ]
+}
