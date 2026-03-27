@@ -1,0 +1,35 @@
+﻿[
+  {
+    "name": "示例书源",
+    "url": "https://example.com",
+    "search": {
+      "url": "https://example.com/search?q=%s",
+      "result": ".result .item",
+      "bookName": ".title",
+      "author": ".author",
+      "latestChapter": ".latest",
+      "lastUpdateTime": ".time",
+      "status": ".status",
+      "category": ".category"
+    },
+    "book": {
+      "url": "https://example.com/book/(.*?)/",
+      "bookName": "h1",
+      "author": ".author",
+      "intro": ".intro",
+      "category": ".category",
+      "coverUrl": "img.cover"
+    },
+    "toc": {
+      "url": "https://example.com/book/%s/",
+      "items": ".chapter-list a",
+      "name": "text",
+      "url": "href"
+    },
+    "chapter": {
+      "url": "https://example.com/chapter/%s",
+      "title": "h1",
+      "content": ".content"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+﻿{
+  "currentVersion": "1.2.0",
+  "entries": [
+    {
+      "version": "1.2.0",
+      "date": "2026-03-27",
+      "title": "主要功能更新",
+      "changes": [
+        { "type": "feature", "description": "新增帮助中心窗口" },
+        { "type": "improvement", "description": "优化更新日志展示" }
+      ]
+    }
+  ]
+}
